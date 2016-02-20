@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    printf("I can't wait to push to GitHub\n");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
