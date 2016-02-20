@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C715C681C790FD800DF094B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C715C671C790FD800DF094B /* main.m */; };
+		6C715C6B1C790FD800DF094B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C715C6A1C790FD800DF094B /* AppDelegate.m */; };
+		6C715C6E1C790FD800DF094B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C715C6D1C790FD800DF094B /* ViewController.m */; };
+		6C715C711C790FD800DF094B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C715C6F1C790FD800DF094B /* Main.storyboard */; };
+		6C715C731C790FD800DF094B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C715C721C790FD800DF094B /* Assets.xcassets */; };
+		6C715C761C790FD800DF094B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C715C741C790FD800DF094B /* LaunchScreen.storyboard */; };
+		6C715C811C790FD800DF094B /* KanyeBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C715C801C790FD800DF094B /* KanyeBoardTests.m */; };
+		6C715C8C1C790FD800DF094B /* KanyeBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C715C8B1C790FD800DF094B /* KanyeBoardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C715C7D1C790FD800DF094B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C715C5B1C790FD700DF094B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C715C621C790FD800DF094B;
+			remoteInfo = KanyeBoard;
+		};
+		6C715C881C790FD800DF094B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C715C5B1C790FD700DF094B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C715C621C790FD800DF094B;
+			remoteInfo = KanyeBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C715C631C790FD800DF094B /* KanyeBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanyeBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C715C671C790FD800DF094B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C715C691C790FD800DF094B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C715C6A1C790FD800DF094B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C715C6C1C790FD800DF094B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C715C6D1C790FD800DF094B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C715C701C790FD800DF094B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C715C721C790FD800DF094B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C715C751C790FD800DF094B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C715C771C790FD800DF094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C715C7C1C790FD800DF094B /* KanyeBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanyeBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C715C801C790FD800DF094B /* KanyeBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanyeBoardTests.m; sourceTree = "<group>"; };
+		6C715C821C790FD800DF094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C715C871C790FD800DF094B /* KanyeBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanyeBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C715C8B1C790FD800DF094B /* KanyeBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanyeBoardUITests.m; sourceTree = "<group>"; };
+		6C715C8D1C790FD800DF094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C715C601C790FD800DF094B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C715C791C790FD800DF094B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C715C841C790FD800DF094B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C715C5A1C790FD700DF094B = {
+			isa = PBXGroup;
+			children = (
+				6C715C651C790FD800DF094B /* KanyeBoard */,
+				6C715C7F1C790FD800DF094B /* KanyeBoardTests */,
+				6C715C8A1C790FD800DF094B /* KanyeBoardUITests */,
+				6C715C641C790FD800DF094B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C715C641C790FD800DF094B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C715C631C790FD800DF094B /* KanyeBoard.app */,
+				6C715C7C1C790FD800DF094B /* KanyeBoardTests.xctest */,
+				6C715C871C790FD800DF094B /* KanyeBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C715C651C790FD800DF094B /* KanyeBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6C715C691C790FD800DF094B /* AppDelegate.h */,
+				6C715C6A1C790FD800DF094B /* AppDelegate.m */,
+				6C715C6C1C790FD800DF094B /* ViewController.h */,
+				6C715C6D1C790FD800DF094B /* ViewController.m */,
+				6C715C6F1C790FD800DF094B /* Main.storyboard */,
+				6C715C721C790FD800DF094B /* Assets.xcassets */,
+				6C715C741C790FD800DF094B /* LaunchScreen.storyboard */,
+				6C715C771C790FD800DF094B /* Info.plist */,
+				6C715C661C790FD800DF094B /* Supporting Files */,
+			);
+			path = KanyeBoard;
+			sourceTree = "<group>";
+		};
+		6C715C661C790FD800DF094B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C715C671C790FD800DF094B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C715C7F1C790FD800DF094B /* KanyeBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C715C801C790FD800DF094B /* KanyeBoardTests.m */,
+				6C715C821C790FD800DF094B /* Info.plist */,
+			);
+			path = KanyeBoardTests;
+			sourceTree = "<group>";
+		};
+		6C715C8A1C790FD800DF094B /* KanyeBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C715C8B1C790FD800DF094B /* KanyeBoardUITests.m */,
+				6C715C8D1C790FD800DF094B /* Info.plist */,
+			);
+			path = KanyeBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C715C621C790FD800DF094B /* KanyeBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C715C901C790FD800DF094B /* Build configuration list for PBXNativeTarget "KanyeBoard" */;
+			buildPhases = (
+				6C715C5F1C790FD800DF094B /* Sources */,
+				6C715C601C790FD800DF094B /* Frameworks */,
+				6C715C611C790FD800DF094B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanyeBoard;
+			productName = KanyeBoard;
+			productReference = 6C715C631C790FD800DF094B /* KanyeBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C715C7B1C790FD800DF094B /* KanyeBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C715C931C790FD800DF094B /* Build configuration list for PBXNativeTarget "KanyeBoardTests" */;
+			buildPhases = (
+				6C715C781C790FD800DF094B /* Sources */,
+				6C715C791C790FD800DF094B /* Frameworks */,
+				6C715C7A1C790FD800DF094B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C715C7E1C790FD800DF094B /* PBXTargetDependency */,
+			);
+			name = KanyeBoardTests;
+			productName = KanyeBoardTests;
+			productReference = 6C715C7C1C790FD800DF094B /* KanyeBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C715C861C790FD800DF094B /* KanyeBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C715C961C790FD800DF094B /* Build configuration list for PBXNativeTarget "KanyeBoardUITests" */;
+			buildPhases = (
+				6C715C831C790FD800DF094B /* Sources */,
+				6C715C841C790FD800DF094B /* Frameworks */,
+				6C715C851C790FD800DF094B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C715C891C790FD800DF094B /* PBXTargetDependency */,
+			);
+			name = KanyeBoardUITests;
+			productName = KanyeBoardUITests;
+			productReference = 6C715C871C790FD800DF094B /* KanyeBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C715C5B1C790FD700DF094B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Main Khan";
+				TargetAttributes = {
+					6C715C621C790FD800DF094B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = BN6C52GUM3;
+					};
+					6C715C7B1C790FD800DF094B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = BN6C52GUM3;
+						TestTargetID = 6C715C621C790FD800DF094B;
+					};
+					6C715C861C790FD800DF094B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = BN6C52GUM3;
+						TestTargetID = 6C715C621C790FD800DF094B;
+					};
+				};
+			};
+			buildConfigurationList = 6C715C5E1C790FD800DF094B /* Build configuration list for PBXProject "KanyeBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C715C5A1C790FD700DF094B;
+			productRefGroup = 6C715C641C790FD800DF094B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C715C621C790FD800DF094B /* KanyeBoard */,
+				6C715C7B1C790FD800DF094B /* KanyeBoardTests */,
+				6C715C861C790FD800DF094B /* KanyeBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C715C611C790FD800DF094B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C715C761C790FD800DF094B /* LaunchScreen.storyboard in Resources */,
+				6C715C731C790FD800DF094B /* Assets.xcassets in Resources */,
+				6C715C711C790FD800DF094B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C715C7A1C790FD800DF094B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C715C851C790FD800DF094B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C715C5F1C790FD800DF094B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C715C6E1C790FD800DF094B /* ViewController.m in Sources */,
+				6C715C6B1C790FD800DF094B /* AppDelegate.m in Sources */,
+				6C715C681C790FD800DF094B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C715C781C790FD800DF094B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C715C811C790FD800DF094B /* KanyeBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C715C831C790FD800DF094B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C715C8C1C790FD800DF094B /* KanyeBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C715C7E1C790FD800DF094B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C715C621C790FD800DF094B /* KanyeBoard */;
+			targetProxy = 6C715C7D1C790FD800DF094B /* PBXContainerItemProxy */;
+		};
+		6C715C891C790FD800DF094B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C715C621C790FD800DF094B /* KanyeBoard */;
+			targetProxy = 6C715C881C790FD800DF094B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C715C6F1C790FD800DF094B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C715C701C790FD800DF094B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C715C741C790FD800DF094B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C715C751C790FD800DF094B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C715C8E1C790FD800DF094B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C715C8F1C790FD800DF094B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C715C911C790FD800DF094B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KanyeBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainkhan.KanyeBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C715C921C790FD800DF094B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KanyeBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainkhan.KanyeBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C715C941C790FD800DF094B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KanyeBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainkhan.KanyeBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanyeBoard.app/KanyeBoard";
+			};
+			name = Debug;
+		};
+		6C715C951C790FD800DF094B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KanyeBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainkhan.KanyeBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanyeBoard.app/KanyeBoard";
+			};
+			name = Release;
+		};
+		6C715C971C790FD800DF094B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KanyeBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainkhan.KanyeBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KanyeBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6C715C981C790FD800DF094B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KanyeBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainkhan.KanyeBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KanyeBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C715C5E1C790FD800DF094B /* Build configuration list for PBXProject "KanyeBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C715C8E1C790FD800DF094B /* Debug */,
+				6C715C8F1C790FD800DF094B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C715C901C790FD800DF094B /* Build configuration list for PBXNativeTarget "KanyeBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C715C911C790FD800DF094B /* Debug */,
+				6C715C921C790FD800DF094B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C715C931C790FD800DF094B /* Build configuration list for PBXNativeTarget "KanyeBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C715C941C790FD800DF094B /* Debug */,
+				6C715C951C790FD800DF094B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C715C961C790FD800DF094B /* Build configuration list for PBXNativeTarget "KanyeBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C715C971C790FD800DF094B /* Debug */,
+				6C715C981C790FD800DF094B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C715C5B1C790FD700DF094B /* Project object */;
+}
