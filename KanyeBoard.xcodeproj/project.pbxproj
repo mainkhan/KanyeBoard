@@ -15,6 +15,8 @@
 		6C715C761C790FD800DF094B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C715C741C790FD800DF094B /* LaunchScreen.storyboard */; };
 		6C715C811C790FD800DF094B /* KanyeBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C715C801C790FD800DF094B /* KanyeBoardTests.m */; };
 		6C715C8C1C790FD800DF094B /* KanyeBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C715C8B1C790FD800DF094B /* KanyeBoardUITests.m */; };
+		6C715C9A1C791BAD00DF094B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C715C991C791BAD00DF094B /* AVFoundation.framework */; };
+		6C715C9E1C7AA16700DF094B /* cheer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C715C9D1C7AA16700DF094B /* cheer.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		6C715C871C790FD800DF094B /* KanyeBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanyeBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C715C8B1C790FD800DF094B /* KanyeBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanyeBoardUITests.m; sourceTree = "<group>"; };
 		6C715C8D1C790FD800DF094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C715C991C791BAD00DF094B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6C715C9D1C7AA16700DF094B /* cheer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheer.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C715C9A1C791BAD00DF094B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 		6C715C5A1C790FD700DF094B = {
 			isa = PBXGroup;
 			children = (
+				6C715C991C791BAD00DF094B /* AVFoundation.framework */,
 				6C715C651C790FD800DF094B /* KanyeBoard */,
 				6C715C7F1C790FD800DF094B /* KanyeBoardTests */,
 				6C715C8A1C790FD800DF094B /* KanyeBoardUITests */,
@@ -101,6 +107,7 @@
 		6C715C651C790FD800DF094B /* KanyeBoard */ = {
 			isa = PBXGroup;
 			children = (
+				6C715C9F1C7AA16D00DF094B /* Sounds */,
 				6C715C691C790FD800DF094B /* AppDelegate.h */,
 				6C715C6A1C790FD800DF094B /* AppDelegate.m */,
 				6C715C6C1C790FD800DF094B /* ViewController.h */,
@@ -138,6 +145,14 @@
 				6C715C8D1C790FD800DF094B /* Info.plist */,
 			);
 			path = KanyeBoardUITests;
+			sourceTree = "<group>";
+		};
+		6C715C9F1C7AA16D00DF094B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6C715C9D1C7AA16700DF094B /* cheer.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +263,7 @@
 			files = (
 				6C715C761C790FD800DF094B /* LaunchScreen.storyboard in Resources */,
 				6C715C731C790FD800DF094B /* Assets.xcassets in Resources */,
+				6C715C9E1C7AA16700DF094B /* cheer.mp3 in Resources */,
 				6C715C711C790FD800DF094B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +515,7 @@
 				6C715C921C790FD800DF094B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C715C931C790FD800DF094B /* Build configuration list for PBXNativeTarget "KanyeBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +524,7 @@
 				6C715C951C790FD800DF094B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C715C961C790FD800DF094B /* Build configuration list for PBXNativeTarget "KanyeBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +533,7 @@
 				6C715C981C790FD800DF094B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
