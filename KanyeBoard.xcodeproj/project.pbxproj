@@ -16,7 +16,12 @@
 		6C715C811C790FD800DF094B /* KanyeBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C715C801C790FD800DF094B /* KanyeBoardTests.m */; };
 		6C715C8C1C790FD800DF094B /* KanyeBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C715C8B1C790FD800DF094B /* KanyeBoardUITests.m */; };
 		6C715C9A1C791BAD00DF094B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C715C991C791BAD00DF094B /* AVFoundation.framework */; };
-		6C715C9E1C7AA16700DF094B /* cheer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C715C9D1C7AA16700DF094B /* cheer.mp3 */; };
+		6C9844811C7BDF050082FAEB /* answers1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C98447B1C7BDF050082FAEB /* answers1.mp3 */; };
+		6C9844821C7BDF050082FAEB /* answers2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C98447C1C7BDF050082FAEB /* answers2.mp3 */; };
+		6C9844831C7BDF050082FAEB /* answers3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C98447D1C7BDF050082FAEB /* answers3.mp3 */; };
+		6C9844841C7BDF050082FAEB /* answers4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C98447E1C7BDF050082FAEB /* answers4.mp3 */; };
+		6C9844851C7BDF050082FAEB /* doing_this_more.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C98447F1C7BDF050082FAEB /* doing_this_more.mp3 */; };
+		6C9844861C7BDF050082FAEB /* shakespeare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C9844801C7BDF050082FAEB /* shakespeare.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +59,12 @@
 		6C715C8B1C790FD800DF094B /* KanyeBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanyeBoardUITests.m; sourceTree = "<group>"; };
 		6C715C8D1C790FD800DF094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C715C991C791BAD00DF094B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6C715C9D1C7AA16700DF094B /* cheer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheer.mp3; sourceTree = "<group>"; };
+		6C98447B1C7BDF050082FAEB /* answers1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = answers1.mp3; sourceTree = "<group>"; };
+		6C98447C1C7BDF050082FAEB /* answers2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = answers2.mp3; sourceTree = "<group>"; };
+		6C98447D1C7BDF050082FAEB /* answers3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = answers3.mp3; sourceTree = "<group>"; };
+		6C98447E1C7BDF050082FAEB /* answers4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = answers4.mp3; sourceTree = "<group>"; };
+		6C98447F1C7BDF050082FAEB /* doing_this_more.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doing_this_more.mp3; sourceTree = "<group>"; };
+		6C9844801C7BDF050082FAEB /* shakespeare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shakespeare.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +160,12 @@
 		6C715C9F1C7AA16D00DF094B /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				6C715C9D1C7AA16700DF094B /* cheer.mp3 */,
+				6C98447B1C7BDF050082FAEB /* answers1.mp3 */,
+				6C98447C1C7BDF050082FAEB /* answers2.mp3 */,
+				6C98447D1C7BDF050082FAEB /* answers3.mp3 */,
+				6C98447E1C7BDF050082FAEB /* answers4.mp3 */,
+				6C98447F1C7BDF050082FAEB /* doing_this_more.mp3 */,
+				6C9844801C7BDF050082FAEB /* shakespeare.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -262,9 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C715C761C790FD800DF094B /* LaunchScreen.storyboard in Resources */,
+				6C9844841C7BDF050082FAEB /* answers4.mp3 in Resources */,
+				6C9844821C7BDF050082FAEB /* answers2.mp3 in Resources */,
+				6C9844811C7BDF050082FAEB /* answers1.mp3 in Resources */,
 				6C715C731C790FD800DF094B /* Assets.xcassets in Resources */,
-				6C715C9E1C7AA16700DF094B /* cheer.mp3 in Resources */,
 				6C715C711C790FD800DF094B /* Main.storyboard in Resources */,
+				6C9844861C7BDF050082FAEB /* shakespeare.mp3 in Resources */,
+				6C9844831C7BDF050082FAEB /* answers3.mp3 in Resources */,
+				6C9844851C7BDF050082FAEB /* doing_this_more.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
